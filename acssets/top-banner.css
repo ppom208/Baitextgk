@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.wrapper{
+    margin: auto;
+}
+/* Banner-img */
+.wrapper .top-banner{
+    max-width: 100%;
+}
+.wrapper .top-banner .banner-img{
+    width: 100%;
+    position: relative;
+}
+/* Banner-content */
+.wrapper .banner-content{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    z-index: 9999;
+}
+/*navbar links*/
+.nav-link{
+    font-size: 1em;
+}
+/* section-conten */
+.button .btn{
+    background-image: linear-gradient(to right, #0496c6 , #6ce9b9);
+}
+.button{
+    margin-bottom: 1em;
+}
+footer{
+    position: relative;
+    top: 1000px;
+    left: 0;
+}
+
+footer .footer-content .footer-image  img{
+    max-width: 100%;
+    object-fit: cover;
+}
